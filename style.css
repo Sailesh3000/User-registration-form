@@ -1,0 +1,63 @@
+body{
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.685), red);
+    height:825px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 95px;
+}
+.content{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    padding-bottom: 0%;
+    font-size: larger;
+    width: 500px;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 25px;
+    transition: 1s;
+}
+.content:hover{
+    transform: scale(1.1001);
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
+}
+#fname,#lname,#email,#pwd,#birthday,#cpwd{
+    width: 300px;
+    height: 20px;
+}
+#terms{
+    margin-left: 100px;
+}
+#sub{
+width: 500px;
+border-top-right-radius: 50px;
+border-top-left-radius: 50px;
+height:70px;
+padding: none;
+border: none;
+background-color: white;
+font: bold;
+font-size: x-large;
+}
+#sub:hover{
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.685), red);
+    
+}
+.im {
+    vertical-align: middle; /* Align the image vertically in the middle */
+    margin-right: 10px; /* Adjust margin between the image and the text */
+    display: inline-block; /* Ensure the image is displayed inline */
+    line-height: 75px; /* Set the line-height to match the height of the image */
+}
+
+p {
+    font-style: bold;
+    font-weight: bolder;
+    margin-bottom: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    line-height: 75px; /* Set line-height to match the image height for vertical alignment */
+}

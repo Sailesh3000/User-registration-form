@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>User-Registration Form</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="container">
+        <div class="content">
+        <p><img class="im" src="https://vaultofcodes.com/cdn/shop/files/Untitled_5.png?v=1695629147&width=90">Registration Form</p>
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email: </label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="pwd">Password:</label><br>
+            <input type="password" id="pwd" name="pwd"><br><br>
+            <label for="pwd">Confirm Password:</label><br>
+            <input type="password" id="cpwd" name="pwd"><br><br>
+            <label for="birthday">Birthday:</label><br>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="M" name="male" value="male">
+            <label for="html">Male: </label>
+            <input type="radio" id="F" name="female" value="female">
+            <label for="html">Female: </label>
+            <input type="radio" id="O" name="other" value="other">
+            <label for="css">Other: </label><br>
+            <br>
+            <input type="checkbox" id="terms" name="terms" value="terms">
+            <label for="css" id="term"> I Accept Terms and Conditions</label><br>
+            <br>
+            <input type="submit" id="sub" value="Submit" onclick="matchPassword()">
+        </form>
+    </div>
+    </div>
+</body>
+</html>
